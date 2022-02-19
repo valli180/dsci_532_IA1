@@ -39,3 +39,5 @@ def update_output(xcol):
 
 if __name__=='__main__':
     app.run_server(debug=True, port=9096)
+
+server = app.server
